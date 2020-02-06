@@ -2885,7 +2885,7 @@
     "19": [134, 63]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0133.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0133.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -2923,7 +2923,7 @@
     "19": [155, 190]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0132.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0132.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -2961,7 +2961,7 @@
     "19": [160, 189]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0130.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0130.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -2999,7 +2999,7 @@
     "19": [168, 187]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0131.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0131.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -3037,7 +3037,7 @@
     "19": [157, 190]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0135.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0135.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -3075,7 +3075,7 @@
     "19": [158, 187]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0134.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0134.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -3113,7 +3113,7 @@
     "19": [151, 188]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0136.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0136.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {
@@ -3151,7 +3151,7 @@
     "19": [159, 188]
   }
 }, {
-  "path": "pose/Biene stirbt_bee_id2003_f0137.png",
+  "path": "pose/Biene_stirbt_bee_id2003_f0137.png",
   "set": "train",
   "dataset": "apic",
   "keypoints": {

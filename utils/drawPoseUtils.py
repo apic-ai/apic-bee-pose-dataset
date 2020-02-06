@@ -5,6 +5,7 @@ import numpy as np
 import os
 import shutil
 
+from utils.definitions import label_to_keypoint, connections
 
 def get_color(identifier):
     hash_string = str(hashlib.sha384(
@@ -17,7 +18,6 @@ def get_color(identifier):
 
 
 def draw_keypoints(pks_pred, image, offset_x, offset_y):
-    from definitions import label_to_keypoint, connections
     centers = {}
     x_min = 10000
     x_max = 0

@@ -28,8 +28,8 @@ The recognition and analysis of changes in behavioral patterns as a consequence 
 
 First clone this repository.
 
-```python
-git clone https://.../apic-bee-pose-dataset
+```bash
+git clone https://github.com/apic-ai/apic-bee-pose-dataset.git
 cd apic-bee-pose-dataset
 ```
 
@@ -355,7 +355,7 @@ A definition that is usable in python can be found in [utils/definitions.py](uti
 ## Visualization
 
 ```python3
-python3 visualization/plotPose.py ./data/labels/... ./data/images/...
+python3 plotPose.py ./data/pose/Biene_stirbt_bee_id2003_f0130.png ./data/pose_dataset.json
 ```
 
 ## Benchmark
@@ -378,9 +378,9 @@ Thanks for your interest in contributing! There are many ways to get involved; s
 ## Citing the apic.ai bee pose dataset
 If you use our dataset in a scientific publication, we would appreciate references to the following paper:
 
-**DeepBees-Building and Scaling Convolutional Neuronal Nets For Fast and Large-Scale Visual Monitoring of Bee Hives. [DeepBees – Building and Scaling Convolutional Neuronal Nets For Fast and Large-scale Visual Monitoring of Bee Hives](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Marstaller_DeepBees_-_Building_and_Scaling_Convolutional_Neuronal_Nets_For_Fast_ICCVW_2019_paper.pdf)**
+**[DeepBees – Building and Scaling Convolutional Neuronal Nets For Fast and Large-scale Visual Monitoring of Bee Hives](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Marstaller_DeepBees_-_Building_and_Scaling_Convolutional_Neuronal_Nets_For_Fast_ICCVW_2019_paper.pdf)**
 
-Biblatex entry:
+Bibtex entry:
 ```latex
 @inproceedings{marstaller2019deepbees,
   title={DeepBees-Building and Scaling Convolutional Neuronal Nets For Fast and Large-Scale Visual Monitoring of Bee Hives},
@@ -394,7 +394,7 @@ Biblatex entry:
 Otherwise use the following attribution:
 ```
 apic.ai bee pose dataset
-by apic.ai
+by apic.ai GmbH
 ```
 
 ## Related publications
