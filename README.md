@@ -6,14 +6,14 @@ The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the
 
 <details><summary>Table of Contents</summary><p>
 
-* [Why we created the apic.ai bee pose dataset](#Why-we-created-the-apic.ai-bee-pose-dataset)
+* [Why we created the apic.ai bee pose dataset](#why-we-created-the-apicai-bee-pose-dataset)
 * [Get the Dataset](#get-the-dataset)
-* [Labels](#Labels)
+* [Labels](#labels)
 * [Visualization](#visualization)
 * [Benchmark](#benchmark)
 * [Contributing](#contributing)
+* [Citing the apic.ai bee pose dataset](#citing-the-apicai-bee-pose-dataset)
 * [Related publications](related-publications)
-* [Citing the apic.ai bee pose dataset](#Citing-the-apic.ai-bee-pose-dataset)
 * [License](#license)
 * [Contact](#contact)
 </p></details><p></p>
