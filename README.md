@@ -1,6 +1,6 @@
 # apic.ai bee pose dataset
 
-The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the western honey bees. Explicitly inferring the pose is beneficial in order to identify behaviour anomalies such as trembling after poisoning or infections.
+The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the western honey bees. Explicitly inferring the pose is beneficial for the identification of behavioral anomalies such as trembling after poisoning or infections.
 
 ![image](doc/img/pose_plots.png)
 
@@ -13,7 +13,7 @@ The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the
 * [Benchmark](#benchmark)
 * [Contributing](#contributing)
 * [Related publications](related-publications)
-* [Citing Fashion-MNIST](#citing-fashion-mnist)
+* [Citing the apic.ai bee pose dataset](#Citing-the-apic.ai-bee-pose-dataset)
 * [License](#license)
 * [Contact](#contact)
 </p></details><p></p>
@@ -21,11 +21,12 @@ The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the
 ## Why we created the apic.ai bee pose dataset
 
 In recent years, entomologists have been observing a global decline in the population of pollinating insects. This is of considerable concern since the global agricultural industry is heavily dependent on pollination.
-One rather prominent representative of the species affected is the western honey bee (Apis mellifera). Unfortunately, the phenomenon cannot be traced to a single root cause. Recent research on honey bee population decline and colony collapse disorder (CCD) is suggesting a multitude of influencing factors. Namely harmful pesticides, parasites, diseases, malnutrition and intruders. Furthermore urbanization and intensive monoculture cultivation are man-made causes. It is difficult to determine which of those factors ultimately lead to the death of a specific colony. Deeper understanding of the ecosystem and human impact on nature is required as well as integrating this information in short and long-term decisionmaking. Specially recognising and analysing changes in behaviour yields major insights into these causes. Therefore, [we](https://apic.ai) are releasing a dataset about bee pose analysis, to enable the computer science community to contribute to solving this issue.
+One rather prominent representative of the species affected is the western honey bee (<i>apis mellifera</i>). Unfortunately, the phenomenon cannot be traced to a single root cause. Recent research on honey bee population decline and colony collapse disorder (CCD) is suggesting a multitude of influencing factors. Namely harmful pesticides, parasites, diseases, malnutrition and intruders. Furthermore urbanization and intensive monoculture cultivation are man-made causes. The collapse of a colony is likely caused by a combination of these factors. A deeper understanding of the ecosystem and human impact on nature is required, to provide a basis for the development for targeted countermeasures. In order to improve the situation, it is necessary to integrate this knowledge in short and long-term decisionmaking.
+The recognition and analysis of changes in behavioral patterns as a consequence of external influences could yield mayor insights into the causal relationships. To contribute to this advancement of knowledge, [we](https://apic.ai) are releasing a dataset about bee pose analysis. It is our hope that it will provide a basis for the computer science community to help solve the challenge.
 
 ## Get the dataset
 
-First clone the dataset itself.
+First clone this repository.
 
 ```python
 git clone https://.../apic-bee-pose-dataset
@@ -349,7 +350,7 @@ right_leg_color = (255, 255, 0)
 </p></details><p></p>
 
 
-A definition that is usable in python can be found in [utils/definitions.py](utils/definitions.py) and be used as a lookup table.
+A definition that is usable in python can be found in [utils/definitions.py](utils/definitions.py). It can be used as a lookup table.
 
 ## Visualization
 
@@ -358,15 +359,15 @@ python3 visualization/plotPose.py ./data/labels/... ./data/images/...
 ```
 
 ## Benchmark
-For a benchmark we recommend to use the keypoint detection Object Keypoint Similarity (OKS).
+As a benchmark we recommend to use the keypoint detection Object Keypoint Similarity (OKS).
 ```latex
 OKS = Σi[exp(-di2/2s2κi2)δ(vi>0)] / Σi[δ(vi>0)]
 ```
 
-If you use this data for benchmark, please do a pull request and update this Benchmark section with your results.
+If you use this data as a benchmark, please create a pull request and update this benchmark section with your results.
 
 ### Results of our DeepBees Multinet
-In our paper [DeepBees](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Marstaller_DeepBees_-_Building_and_Scaling_Convolutional_Neuronal_Nets_For_Fast_ICCVW_2019_paper.pdf), we used a custom loss that is defined as.
+In our paper [DeepBees](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Marstaller_DeepBees_-_Building_and_Scaling_Convolutional_Neuronal_Nets_For_Fast_ICCVW_2019_paper.pdf), we defined the custom loss as follows.
 ![image](doc/img/our_metric.png)
 ![image](doc/img/our_results.png)
 
@@ -374,7 +375,7 @@ In our paper [DeepBees](http://openaccess.thecvf.com/content_ICCVW_2019/papers/C
 
 Thanks for your interest in contributing! There are many ways to get involved; start with our [contributor guidelines](/CONTRIBUTING.md) and then check these [open issues](https://github.com/apic-ai/apic-bee-pose-dataset/issues) for specific tasks.
 
-## Citing apic.ai bee pose dataset
+## Citing the apic.ai bee pose dataset
 If you use our dataset in a scientific publication, we would appreciate references to the following paper:
 
 **DeepBees-Building and Scaling Convolutional Neuronal Nets For Fast and Large-Scale Visual Monitoring of Bee Hives. [DeepBees – Building and Scaling Convolutional Neuronal Nets For Fast and Large-scale Visual Monitoring of Bee Hives](http://openaccess.thecvf.com/content_ICCVW_2019/papers/CVWC/Marstaller_DeepBees_-_Building_and_Scaling_Convolutional_Neuronal_Nets_For_Fast_ICCVW_2019_paper.pdf)**
