@@ -2,7 +2,7 @@
 
 The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the western honey bees. Explicitly inferring the pose is beneficial for the identification of behavioral anomalies such as trembling after poisoning or infections.
 
-![image](doc/img/pose_plots.png)
+![image](doc/img/pose_title.png)
 
 <details><summary>Table of Contents</summary><p>
 
@@ -14,7 +14,7 @@ The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the
 * [Contributing](#contributing)
 * [Citing the apic.ai bee pose dataset](#citing-the-apicai-bee-pose-dataset)
 * [Related publications](related-publications)
-* [License](#license)
+* [License](#licensetoc)
 * [Contact](#contact)
 </p></details><p></p>
 
@@ -407,3 +407,6 @@ The [Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](LICENSE), Copyr
 
 ## Contact
 If you have questions regarding the dataset or license feel free to contact: data@apic.ai
+
+![image](doc/img/red_bee.gif)
+![image](doc/img/bee.gif)
