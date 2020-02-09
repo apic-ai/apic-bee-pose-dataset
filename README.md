@@ -1,6 +1,6 @@
 # apic.ai bee pose dataset
 
-The apic.ai bee pose dataset contains annotation of 32 relevant keypoints on the western honey bees. Explicitly inferring the pose is beneficial for the identification of behavioral anomalies such as trembling after poisoning or infections.
+The apic.ai bee pose dataset contains annotations of 32 relevant keypoints on western honey bees. Explicitly inferring the pose is beneficial for the identification of behavioral anomalies such as trembling after poisoning or infections.
 
 ![image](doc/img/pose_title.png)
 
@@ -33,13 +33,13 @@ git clone https://github.com/apic-ai/apic-bee-pose-dataset.git
 cd apic-bee-pose-dataset
 ```
 
-| Xtrain        | Xtest           | X  |
+| Xtrain        | Xtest         | X     |
 | ------------- |:-------------:| -----:|
-| 191      | 38 | 229 |
+| 191           | 38            | 229   |
 
 ### Labels
 
-The bees have annotations for 32 relevant keypoints.
+The bee pose is marked by 32 relevant keypoints.
 
 
 <details><summary>Color definition</summary><p>
@@ -399,10 +399,11 @@ by apic.ai GmbH
 
 ## Related publications
 
+- [Fast animal pose estimation using deep neural networks](https://www.biorxiv.org/content/10.1101/331181v1)
 - [Impact of an Oomen feeding with a neonicotinoid on daily activity and colony development of honeybees assessed with an AI based monitoring device](https://www.biorxiv.org/content/10.1101/2020.02.04.933556v1)
 - [Current achievements and future developments of a novel AI based visual monitoring of beehives in ecotoxicology and for the monitoring of landscape structures.](https://www.biorxiv.org/content/10.1101/2020.02.04.933580v1)
 
-## License
+# License
 The [Attribution-NonCommercial-ShareAlike 4.0 (CC BY-NC-SA 4.0)](LICENSE), Copyright © [2020] [apic.ai GmbH](https://www.apic.ai)
 
 ## Contact
